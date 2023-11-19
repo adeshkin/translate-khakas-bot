@@ -81,7 +81,7 @@ user_info_dir = '/home/vasiliy/projects/obuchaem_neuroset_khakas/users_info'
 user_answers_dir = '/home/vasiliy/projects/obuchaem_neuroset_khakas/users_answers'
 
 df_khakas_sents = pd.read_csv(f'{obuchaem_neuroset_khakas_data_dir}/khakas_texts/khakaschiry_sents_min_word_num_5.csv')
-khakas_sentences = df_khakas_sents['sentences'].values.tolist()[:2]
+khakas_sentences = df_khakas_sents['sentences'].values.tolist()
 random.shuffle(khakas_sentences)
 
 

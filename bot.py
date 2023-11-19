@@ -167,11 +167,10 @@ async def choose_task_type(message: Message, state: FSMContext) -> None:
         ],
         resize_keyboard=True,
     )
-
+    # "Учебники хакасского языка и литературы, Хакасское книжное издательство имени "
+    # "В\.М\.Торосова, https://online\.khakbooks\.ru/school\-textbooks/basic\n"
     await message.answer("Доступны следующие типы заданий:\n\n"
                          "*1\.Перевод с хакасского языка на русский*\n"
-                         "Учебники хакасского языка и литературы, Хакасское книжное издательство имени "
-                         "В\.М\.Торосова, https://online\.khakbooks\.ru/school\-textbooks/basic\n"
                          "Статьи, Хакас Республиканың газетазы «Хакас чирі», https://www\.khakaschiry\.ru\n\n"
                          "*2\.Набор текста с фотографии*\n"
                          "Поговорим по\-хакасски\. Русско\-хакасский разговорник\. Субракова О\.В\.\n\n"
